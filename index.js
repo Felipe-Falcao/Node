@@ -1,3 +1,4 @@
+require('dotenv').config();
 const consign = require('consign');
 const express = require("express");
 
