@@ -6,6 +6,8 @@ const app = express();
 
 consign()
     .include("./api")
-    .then("./config/middlewares.js")
-    .then("./config/routes.js")
+    .then("./database/mysql/mysql.js")
+    .then("./database/mysql/models/postagens.js")
+    // .then("./config/middlewares.js")
+    // .then("./config/routes.js")
     .into(app);

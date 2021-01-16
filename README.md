@@ -7,5 +7,6 @@ Após a instalação:
 - SHOW DATABASES;
 - CREATE DATABASE X;
 - USE X;
+- DESCRIBE x;
 
 # MySQL + Sequelize
