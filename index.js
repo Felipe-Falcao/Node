@@ -5,5 +5,6 @@ const app = express();
 
 consign()
     .include("./api")
+    .then("./config/middlewares.js")
     .then("./config/routes.js")
     .into(app);
